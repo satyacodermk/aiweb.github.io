@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automove button When Try to Enter with wrong data</title>
+    <link rel="stylesheet" href="coolstyle.css">
+</head>
+
+<body>
+    <div class="main_form">
+        <h1 class="headline">Hey This is AI Form</h1>
+        <p class="para">Enter Name :</p><input id="e" placeholder="Enter Your name" onkeyup="check()">
+        <!-- <p class="para">Enter Addrress :<input class="e" placeholder="Enter Your Address"></p> -->
+        <!-- <p class="para">Enter Username :<input class="e" placeholder="Enter Your Username"></p> -->
+        <p class="para">Enter Password :</p><input id='pid' type="password" onkeyup="validation()" placeholder="Enter Your Password">
+        <div class="but">
+            <button id="mybut" onclick="donefun()">Submit</button>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="coolscript.js"></script>
+
+</html>

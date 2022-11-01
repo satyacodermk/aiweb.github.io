@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 10px;
+    padding: 10px;
+}
+
+.main_form {
+    display: relative;
+    
+    margin-top: 70px;
+    margin-left: 70px;
+    padding-top: 20px;
+    padding-left: 40px;
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    color: black;
+    border-radius: 10px;
+   
+}
+
+.para {
+    padding: 10px;
+    justify-content: center;
+    margin-left: 130px;
+     /* border: 2px solid white; */
+}
+
+p {
+    font-size: 25px;
+    margin: 5px;
+    color: rgb(233, 190, 186);
+}
+
+/* input {
+    font-size: 15px;
+    border: 3px solid rgb(237, 224, 224);
+    border-radius: 5px;
+} */
+
+.headline {
+    font-size: 50px;
+    padding: 10px;
+    color: rgb(118, 236, 114);
+    justify-content: center;
+}
+
+#e {
+    /* display: flex; */
+    margin-left: 140px;
+    padding: 5px;
+    border:2px solid #555;
+    border-radius: 5px;
+    outline: none; /*to avoid the auto outline */
+    font-size: 20px;
+    color:rgb(65, 65, 234) ;
+}
+#pid{
+    display: relative;
+    /* border: 0; */
+    font-size: 20px;
+    padding: 5px;
+    border:2px solid #555;
+    border-radius: 5px;
+    /* border:2px; */
+    margin-left: 140px;
+    outline: none;
+    /* border-color: rgb(222, 237, 107); */
+    /* background: transparent; */
+
+}
+#mybut {
+    margin-left: 200px;
+    margin-right: 0px;
+    margin-top: 10px;
+    font-size: 24px;
+    padding: 5px;
+    border:2px solid aquamarine;
+    border-radius: 5px;
+    color: white;
+    background: rgb(83, 231, 105);
+    transition: 1s;
+}
